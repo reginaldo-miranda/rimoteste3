@@ -9,5 +9,5 @@ Route::get('/', function () {
 */
 
 Route::get('/', function () {
-    return view('layout');
+    return view('pdv');
 });
