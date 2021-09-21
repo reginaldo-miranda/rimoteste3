@@ -12,8 +12,7 @@ class vendaItens extends Model
     protected $primaryKey = 'id_vendaitens';
 
     protected $fillable =[
-        
-            'id_vendaitens',
+                    
             'id_venda',
             'id_cliente',
             'id_produto', 

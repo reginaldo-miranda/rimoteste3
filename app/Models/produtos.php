@@ -9,13 +9,13 @@ class produtos extends Model
 {
     use HasFactory;
 
-    protected $primaryKey = 'id_produtos';
+    protected $primaryKey = 'CodProd';
 
     protected $filllable = [
     
-            'descricao', 
+            'Descricao', 
             'grupo',
-            'pvenda',
+            'PrecoVenda',
         
 
     ];
