@@ -1,5 +1,6 @@
 <?php
 
+namespace App\Providers;
 use Illuminate\Support\Str;
 
 return [
@@ -15,7 +16,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+   // 'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -34,6 +35,28 @@ return [
     */
 
     'connections' => [
+
+       // 'paradox' =>[
+
+           // "driver = {Microsoft Paradox Driver (* .db)}" 
+          //  'driver' => odbc_connect("arquivos","","");
+            //$query="SELECT Username, Senha, Nome FROM Operadores WHERE Username='$login' and Senha='$senha'";
+            //$result=odbc_exec($myDB, $query);
+            //print("Username: <b>");
+            //print(odbc_result_all($result));
+            //odbc_close($myDB);
+
+            'odbc-para' => [
+                'driver' => 'odbc' ,
+                'dsn' => 'brainphp' ,
+                'database' => 'arquivos' ,
+                'host' => '127.0.0.1' ,
+                //'nome de usuário ' => ' nome de usuário ' ,
+               //' senha ' => ' senha '  
+            ],
+
+            
+       // ],
 
         'sqlite' => [
             'driver' => 'sqlite',
@@ -58,9 +81,9 @@ return [
             'prefix_indexes' => true,
             'strict' => true,
             'engine' => null,
-            'options' => extension_loaded('pdo_mysql') ? array_filter([
-                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
-            ]) : [],
+          //  'options' => extension_loaded('pdo_mysql') ? array_filter([
+         //      PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+         //   ]) : [],
         ],
 
         'pgsql' => [
@@ -145,3 +168,5 @@ return [
     ],
 
 ];
+
+//https://github.com/andreossido/laravel-odbc link para conectar obdc laravel
