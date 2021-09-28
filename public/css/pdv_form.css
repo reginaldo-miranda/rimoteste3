@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    height: 650px;
+}
+
+#inputqde {
+    width: 50px;
+    margin-inline: 15px;
+}
+
+input {
+    height: 40px;
+    width: 180px;
+    background-color: azure;
+}
+
+#inputvalor {
+    width: 100px;
+}
+
+#btnabrir {
+    margin-top: 130px;
+    margin-left: 130px;
+}
+
+#botaoabrir {
+    font-size: 24px;
+    height: 80px;
+    background-color: rgb(130, 144, 219);
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#btntabela {
+    padding: 0;
+    height: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#btnfechar {
+    /* display: block;*/
+}
+
+#labelqde {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+#labelvalor {
+    margin-left: 130px;
+}
+
+#textareadescprod {}
+
+#qdeitens {
+    margin-left: 500px;
+}
+
+#textareavenda {
+    /*  background: transparent; */
+    border: 0;
+    outline: 0;
+    text-align: left;
+    width: 100%;
+    /*   max-width: 100%; */
+    /*   position: absolute; */
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+
+/*
+table{
+    max-width: 590px;
+}*/
+
+td {
+    width: 50px;
+}
+
+.modal-backdrop {
+    display: none;
+    z-index: -1;
+}
+
+thead th {
+    position: -webkit-sticky;
+    /* for Safari */
+    position: sticky;
+    top: 0;
+}
+
+#inptvalortotal {
+    margin-left: 70px;
+}
+
+#legendavalortotal {
+    margin-left: 150px;
+    font-size: 35px;
+}
+
+#inptvlr {
+    height: 80px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+/*
+#inputvlrtotal,
+#inputdinh,
+#inputcartao,
+#inputpix {
+    width: 130px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+*/
+.inputes {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#image {
+    margin-left: 100px;
+}
+
+#cabecalho{
+  height:188px;
+
+}
+#mostrades{
+  
+    width:400px;
+    height: 50px;
+    background-color: azure;
+}
+
+#tmanhomodal{
+
+   width: 800px;
+}
+
+.btnfechar{
+    display:block;
+    width: 140px;
+    margin-left:2px; 
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+  /*  background-color:green;*/
+  
+  }
+
+/*
+  tbody th {
+   position: -webkit-sticky; /* for Safari */
+
+
+/* position: sticky; 
+    left: 0;
+  }*/
+
+
+/*
+  .modal + .modal-backdrop + .modal + .modal-backdrop {
+      display:none
+    }*/
