@@ -5,6 +5,7 @@
     <div class="container">
         @livewire('venda-componente')
         @livewire('pdvcomponent')
+        @livewire('FecharCX')
 
         {{-- @livewire('vendaitens-componente')
             @livewire('pdvcomponent')  

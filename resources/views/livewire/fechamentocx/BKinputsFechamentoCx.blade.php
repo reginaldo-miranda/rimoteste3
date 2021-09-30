@@ -1,4 +1,4 @@
-     
+
       <div class="inputes">
          <div>
             <label>Valor total</label>
@@ -13,7 +13,7 @@
       </div>
 
       <div class="inputes">dinheiro:
-         <input type="text" class="btnfechar" id="inputDin" wire:model="dinheiro" /> 
+         <input type="text" class="btnfechar" id="n2"  value="{{ number_format($inputdinh, 2, ',' ,  '.')}}" onchange="calcular()"/> 
       </div>
 
       <div class="inputes">Pix: 

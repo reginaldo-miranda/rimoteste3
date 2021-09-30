@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\DB;
 use Livewire\WithPagination;
 
 class VendaComponente extends Component
-{
+{   
     public $checar;
     public $id_cliente;
 

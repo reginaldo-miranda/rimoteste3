@@ -1,12 +1,6 @@
 @extends('layout')
 
-{{--
-    <button type="button" class="btn-sm btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@tableprod">Open modal</button>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Open modal for @fat</button>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button> 
- --}}
-
-
+@livewire('FecharCX')
 <div class="modal fade" id="exemploModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   
  
