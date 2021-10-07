@@ -139,7 +139,8 @@ class VendaComponente extends Component
         'qde'         => $this->qde,
         'valorunit'   => $this->pvenda,
         'status'      => $this->status,
-        'id_vendai'   => $res->id_venda,
+       // 'id_vendai'   => $res->id_venda,
+        'id_venda'   => $res->id_venda,
         ]);
 
         $this->prod_id = '';

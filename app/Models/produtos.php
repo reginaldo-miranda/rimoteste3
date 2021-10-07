@@ -11,6 +11,8 @@ class produtos extends Model
 
     protected $primaryKey = 'CodProd';
 
+   // protected $primaryKey = 'id_produto';
+
     protected $filllable = [
     
             'Descricao', 
