@@ -17,7 +17,7 @@ class CreateVendasTable extends Migration
             $table->id();
             $table->integer('id_cliente');
             $table->double('valor_total');
-            $table->double('status');
+            $table->double('statusvenda');
             $table->timestamps();
         });
     }
