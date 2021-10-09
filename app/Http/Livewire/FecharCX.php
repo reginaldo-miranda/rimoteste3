@@ -10,7 +10,7 @@ use App\Http\Livewire\document;
 use App\Http\Livewire\produtos;
 
 
-use Livewire\Component;
+//use Livewire\Component;
 
 class FecharCX extends Component
 {   
